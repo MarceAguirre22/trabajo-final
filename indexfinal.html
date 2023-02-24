@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Portoflio Marce Aguirre</title>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.navbar {
+			display: flex;
+			justify-content: space-around;
+			position: sticky;
+			top: 0px;;
+			cursor: pointer;
+		}
+
+		.background {
+			background: rgb(245, 2, 132);
+			background-blend-mode: darken;
+			background-size: cover;
+		}
+
+		.nav-list {
+			width: 70%;
+			display: flex;
+			align-items: center;
+		}
+
+		.logo {
+			display: flex;
+			justify-content: center;
+			align-items: start;
+		}
+
+		.logo img {
+			width: 50px;
+			border-radius: 100px;
+		}
+
+		.content {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 50px;;
+		}
+
+		.content img {
+			width: 110%;
+			border-radius: 10px;
+		
+		}
+
+		.nav-list li {
+			list-style: none;
+			padding: 26px 30px;
+		
+		}
+
+		.nav-list li a {
+			text-decoration: none;
+			color: white;
+			font-family: 'Montserrat', sans-serif;
+		}
+
+		.nav-list li a:hover {
+			color: rgb(249, 246, 249);
+		}
+
+		.rightnav {
+			width: 30%;
+			text-align: L;
+		}
+
+		.firstsection {
+			background-color: rgb(205, 204, 204);
+			height: 400px;
+		
+		}
+
+		.secondsection {
+			background-color: rgb(110, 110, 110);
+			height: 400px;
+		
+		}
+
+		.thirdsection {
+			background-color: rgb(63, 62, 62);
+			height: 400px;
+
+		}
+
+		.box-main {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: black;
+			max-width: 150%;
+			margin: center;
+			height: 100%;
+		}
+
+		.text-big {
+			font-family: 'Montserrat', sans-serif;
+			font-weight: bold;
+			font-size: 35px;
+			padding-left: 5%;
+		}
+		.text2 {
+			font-family: 'Montserrat', sans-serif;
+			font-weight: bold;
+			font-size: 35px;
+			padding-left: 5%;
+			color: white;
+		}
+
+		.text-small {
+			font-size: 15px;
+			font-family: 'Montserrat', sans-serif;
+			padding-right: 5%;
+			color:black;
+		}
+		.text{
+			font-size: 15px;
+			font-family: 'Montserrat', sans-serif;
+			padding-right: 5%;
+			color: white;
+		}
+
+		.section {
+			height: 20%;
+			display: flex;
+			align-items: center;
+			justify-content: baseline;
+			max-width: 90%;
+			margin: auto;
+		}
+
+		.section-Left {
+			flex-direction: row-reverse;
+		}
+
+		.paras {
+			padding: 0px 65px;
+		}
+
+
+		.center {
+			text-align: center;
+		}
+
+		.text-footer {
+			text-align: center;
+			padding: 30px 0;
+			font-family: 'Ubuntu', sans-serif;
+			display: flex;
+			justify-content: center;
+			color: white;
+		}
+	</style>
+</head>
+
+<body>
+	<nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<img src= "fotoperfil.png">
+			</div>
+			<li><b><a href="https://www.linkedin.com/in/marce-aguirre-638b7894/">MARCE AGUIRRE PORFOLIO DG</a></b></li>
+			<li><a href="#identidad">Identidad</a></li>
+			<li><a href="#campanias">Campañas</a></li>
+			<li><a href="#marcas">Marcas</a></li>
+		</ul>
+
+		
+	</nav>
+
+	<section class="firstsection">
+		<div class="box-main">
+			<h1 class="text-big" id="identidad">
+				Identidad
+			</h1>
+				<div class="content">
+					<img src= "identidad.png">
+				</div>
+				<p class="text-small">
+			      Qué es la imagen corporativa?
+                    La imagen corporativa de una empresa es el universo
+                     visual de una marca, el conjunto de piezas desarrolladas
+					 en cualquier soporte y ámbito que identifican a la marca
+					 y que son percibidos por el público.
+				</p>
+	
+		</div>
+		
+	</section>
+
+	<section class="secondsection">
+		<div class="box-main">
+	
+			<h1 class="text2" id="campanias">
+				Campañas
+			</h1>
+				<div class="content">
+					<img src= "campanias.png">
+				</div>
+				<p class="text">
+					Una campaña publicitaria es una estrategia
+					de comunicación que llevan a cabo las empresas
+					para difundir un producto, servicio o material
+					de la marca a su mercado meta, con el objetivo de
+					fijarla en la mente de sus consumidores potenciales.
+				</p>
+			
+		</div>
+
+	<section class="thirdsection">
+		<div class="box-main">
+			<h1 class="text2" id="marcas">
+					Marcas
+				</h1>
+				<div class="content">
+					<img src= "marcas.png">
+				</div>
+				<p class="text">
+					Perfiles de redes sociales con los que cuentas;
+					Información sobre tu audiencia y resultados;
+					Metodología de trabajo y anteriores campaña.
+
+				</p>
+			
+		</div>
+	</section>
+
+	<footer class="background">
+		<p class="text-footer">
+			Gracias ClubCompas :)
+		</p>
+
+
+	</footer>
+</body>
+
+</html>
